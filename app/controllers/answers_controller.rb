@@ -6,7 +6,6 @@ class AnswersController < ApplicationController
     end
     if @answer.end_with? == "?"
       @robot = "Silly question, get dressed and go to work!."
-    end
     else
       @robot = "I don't care, get dressed and go to work!"
     end
